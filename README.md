@@ -9,8 +9,10 @@ models are in the rai-robotModels. Both have to be checked out in
 parallel (to a specific commit, to make it exactly reproducible):
 
 ```
-git clone -b 8547d4380a2c5169f63d6fe18b6d234143cc59c4 https://github.com/MarcToussaint/rai
-git clone -b 303ff9aa51508f5e765c99af552b485ecb4586df https://github.com/MarcToussaint/rai-robotModels
+git clone https://github.com/MarcToussaint/rai
+cd rai && git checkout 8547d4380a2c5169f63d6fe18b6d234143cc59c4 && cd ..
+git clone https://github.com/MarcToussaint/rai-robotModels
+cd rai-robotModels && git checkout 303ff9aa51508f5e765c99af552b485ecb4586df && cd ..
 git clone https://github.com/MarcToussaint/24-NLP-Sampling
 ```
 
