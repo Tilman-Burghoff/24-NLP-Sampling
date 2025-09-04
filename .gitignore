@@ -1,0 +1,9 @@
+# files created during compilation
+*.o
+x.exe
+
+# files created during experiments (demos.py)
+*.dat
+*.pdf
+__pycache__/
+z.log.global
